@@ -1,0 +1,17 @@
+/ {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+
+    leds {
+        compatible = "zmk,underglow";
+        led_strip: ws2812 {
+            compatible = "zmk,ws2812-spi";
+            label = "Underglow LEDs Left";
+            chain-length = <21>;            // number of LEDs on left half
+            spi-max-frequency = <4000000>;
+            reg = <0>;
+            data-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>; // GPIO 13
+        };
+    };
+};
