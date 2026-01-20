@@ -77,12 +77,12 @@
 
         layer_4 {
             bindings = <
-&kp TAB    &kp trans   &kp trans   &kp trans   &kp trans   &kp ESC      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp trans  &kp trans  &kp trans   &kp trans   &kp trans        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &trans  &trans  &trans  &trans  &kp trans        &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &trans   &trans   &trans   &kp trans   &kp ESC      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans   &trans   &trans        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
                            &trans  &trans  &kp SPACE    &trans  &trans  &trans
             >;
-        };
+        }
     };
 
     conditional_layers {
