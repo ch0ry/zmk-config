@@ -82,7 +82,7 @@
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
                            &trans  &trans  &kp SPACE    &trans  &trans  &trans
             >;
-        }
+        };
     };
 
     conditional_layers {
